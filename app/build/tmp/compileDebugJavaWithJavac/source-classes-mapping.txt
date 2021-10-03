@@ -1,0 +1,20 @@
+com/example/nasaapp/BuildConfig.java
+ com.example.nasaapp.BuildConfig
+com/example/nasaapp/ui/home/HomeFragment.java
+ com.example.nasaapp.ui.home.HomeFragment
+ com.example.nasaapp.ui.home.HomeFragment$1
+com/example/nasaapp/ui/slideshow/SlideshowViewModel.java
+ com.example.nasaapp.ui.slideshow.SlideshowViewModel
+com/example/nasaapp/ui/gallery/GalleryFragment.java
+ com.example.nasaapp.ui.gallery.GalleryFragment
+ com.example.nasaapp.ui.gallery.GalleryFragment$1
+com/example/nasaapp/ui/slideshow/SlideshowFragment.java
+ com.example.nasaapp.ui.slideshow.SlideshowFragment
+ com.example.nasaapp.ui.slideshow.SlideshowFragment$1
+com/example/nasaapp/ui/gallery/GalleryViewModel.java
+ com.example.nasaapp.ui.gallery.GalleryViewModel
+com/example/nasaapp/ui/home/HomeViewModel.java
+ com.example.nasaapp.ui.home.HomeViewModel
+com/example/nasaapp/MainActivity.java
+ com.example.nasaapp.MainActivity
+ com.example.nasaapp.MainActivity$1
