@@ -87,7 +87,7 @@ for i in range(len(s_array)):
 
 indexfile.close()
 #os.replace("/var/www/html/index2.html", "/var/www/html/index.html")
-os.replace(file_path + "new", filepath)
+os.replace(file_path + "new", file_path)
 print('Done!')
 
 # End time counting
