@@ -1,3 +1,8 @@
+import time
+
+# Counting time elapsed
+start_count = time.time()
+
 import os
 import datetime as dt
 from sgp4.api import jday
@@ -16,7 +21,7 @@ from astropy.coordinates import ITRS
 st = SpaceTrackClient(identity='hitalo.c.a@gmail.com', password='EuMeChamoHitalo2000!')
 
 data = st.tle_latest(iter_lines=True, ordinal=1, epoch='>now-30',
-                     mean_motion=op.inclusive_range(2, 5),
+                     mean_motion=op.inclusive_range(0.99, 1.01),
                      eccentricity=op.less_than(0.01), format='tle')
 
 with open('tle_latest.txt', 'w') as fp:
@@ -79,3 +84,6 @@ for i in range(len(s_array)):
 indexfile.close()
 os.replace("/var/www/html/index2.html", "/var/www/html/index.html")
 print('Done!')
+
+# End time counting
+print("Time elapsed:" + str(time.time() - start_count))
