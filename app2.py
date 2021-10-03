@@ -1,4 +1,7 @@
 import time
+import sys
+
+file_path = sys.argv[1]
 
 # Counting time elapsed
 start_count = time.time()
@@ -40,7 +43,8 @@ e, r, v = [], [], []
 lat, lon, hgt = [], [], []
 print('Converting tle data...')
 
-indexfile = open("/var/www/html/index2.html", "w")
+#indexfile = open("/var/www/html/index2.html", "w")
+indexfile = open(file_path + "new", "w")
 
 for i in range(len(s_array)):
   print(i)
@@ -82,7 +86,8 @@ for i in range(len(s_array)):
     indexfile.write(str(lon_) + "," + str(lat_) + "," + str(hgt_) + "\n")
 
 indexfile.close()
-os.replace("/var/www/html/index2.html", "/var/www/html/index.html")
+#os.replace("/var/www/html/index2.html", "/var/www/html/index.html")
+os.replace(file_path + "new", filepath)
 print('Done!')
 
 # End time counting
