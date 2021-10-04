@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NasaApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Slide the bar to select other dates in the past or the future. To come back to real time select the play button</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_predict">Predict</string>
+    <string name="menu_nearest">Nearest Debris</string>
+    <string name="real_time">Real Time</string>
+    <string name="latitute">Latitute</string>
+    <string name="longitude">latitude</string>
+</resources>
